@@ -76,6 +76,7 @@ namespace Sandbox
 
 			entity.NetworkSpawn();
 			entity.Network.SetOrphanedMode( NetworkOrphaned.Host );
+			// Event.Run( "entity.spawned", entity, ConsoleSystem.Caller.Pawn );
 			
 			return entity;
 		}
